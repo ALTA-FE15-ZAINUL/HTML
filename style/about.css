@@ -1,0 +1,66 @@
+.list-menu a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #19345e;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.list-menu a:hover {
+  color: #f47522;
+}
+
+.btn-nav {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  margin: 0.5rem;
+  color: #f47522;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 0.5px solid #f47522;
+  border-radius: 40px;
+  background: white;
+}
+
+.btn-nav:hover {
+  color: white;
+  background: #f47522;
+}
+
+.baseDisplay {
+  display: flex;
+  justify-content: left;
+}
+
+.profilText {
+  font-family: "Poppins", sans-serif;
+  color: #19345e;
+}
+
+.img1 {
+  width: 250px;
+  height: 220px;
+  float: right;
+  background-image: url(../asset/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+  background-size: cover;
+}
+
+/* warna font */
+.tc-orange {
+  color: #f47522;
+}
+
+.tc-darkblue {
+  color: #19345e;
+}
+
+/* footer */
+.footerIcon img {
+  width: 1.3rem;
+  margin-right: 0.4rem;
+}

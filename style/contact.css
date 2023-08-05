@@ -1,0 +1,62 @@
+/* navbar */
+.list-menu a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #19345e;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+a:hover {
+  color: #f47522;
+}
+
+.btn-nav {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  margin: 0.5rem;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 0.5px solid #f47522;
+  border-radius: 40px;
+  background: #f47522;
+}
+
+.btn-nav:hover {
+  color: #f47522;
+  background: white;
+}
+/* end navbar */
+
+/* content */
+.iconMedsos img {
+  width: 1.5rem;
+  float: right;
+  box-shadow: 10px 10px 5px rgba(rgb(141, 139, 139, 0.7));
+}
+
+.formButton {
+  background-color: #f47522;
+  color: #edf6ff;
+  width: 25%;
+  transition: all 0.3s;
+}
+
+.formButton:hover {
+  background-color: #19345e;
+  filter: contrast(1);
+  box-shadow: 1px 1px 10px rgba(80, 80, 80, 0.7);
+}
+/* end content   */
+
+/* footer */
+.footerIcon img {
+  width: 1.3rem;
+  margin-right: 0.4rem;
+}

@@ -1,0 +1,79 @@
+.list-menu a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #19345e;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.list-menu a:hover {
+  color: #f47522;
+}
+
+.btn-nav {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  margin: 0.5rem;
+  color: #f47522;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 0.5px solid #f47522;
+  border-radius: 40px;
+  background: white;
+}
+
+.btn-nav:hover {
+  color: white;
+  background: #f47522;
+}
+
+.experience-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-container .desc {
+  color: #19345e;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: #19345e;
+}
+
+.duration {
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* warna font */
+.tc-orange {
+  color: #f47522;
+}
+
+.tc-darkblue {
+  color: #19345e;
+}
+
+/* footer */
+.footerIcon img {
+  width: 1.3rem;
+  margin-right: 0.4rem;
+}

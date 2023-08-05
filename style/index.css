@@ -1,0 +1,72 @@
+body {
+  background-image: url("/asset/bg-img.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+.fontStyle {
+  font-family: "Poppins";
+  color: rgb(25, 52, 94);
+}
+
+.font {
+  font-family: "Poppins";
+}
+
+/* navbar */
+.list-menu a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #19345e;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+a:hover {
+  color: #f47522;
+}
+
+.btn-nav {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  margin: 0.5rem;
+  color: #f47522;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 0.5px solid #f47522;
+  border-radius: 40px;
+  background: white;
+}
+
+.btn-nav:hover {
+  color: white;
+  background: #f47522;
+}
+/* end navbar */
+
+/* hero image */
+.img1 {
+  border-radius: 50%;
+}
+.heroBtn button {
+  background-color: #f47522;
+  color: #edf6ff;
+  transition: all 0.3s;
+}
+
+.heroBtn:hover button {
+  background-color: #19345e;
+  box-shadow: 1px 1px 10px rgba(80, 80, 80, 0.7);
+}
+/* end hero image */
+
+/* footer */
+.footerIcon img {
+  width: 1.3rem;
+  margin-right: 0.4rem;
+}
